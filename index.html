@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>自己紹介</h1>
+        <p>私についての簡単な紹介ページです。</p>
+    </header>
+
+    <section id="about-me">
+        <h2>矢口　陽斗</h2>
+        <p>趣味　：　野球観戦・旅行</p>
+        <p>年齢　：　２０歳</p>
+    </section>
+
+    <section id="clothing">
+        <h2>衣</h2>
+        <p>落ち着いた色の服を好んでいます。</p>
+        <img src="images/clothing.jpg" >
+    </section>
+
+    <section id="food">
+        <h2>食</h2>
+        <p>麵類全般が好きでとくに拉麺を好んでいます。
+            イタリアンのアルバイトをしているため、大学に入ってパスタも好きになりました
+        </p>
+        <img src="th.jpg"和食のイメージ">
+        <img src="OIP (2).jpg">
+    </section>
+
+    <section id="housing">
+        <h2>住</h2>
+        <p>白色をメインとしたシンプルな家に住んでいます。天井が天窓になっており開けたリビングがあります。</p>
+        <img src="S__249086001.jpg"　alt="シンプルなインテリアのイメージ" class="a">
+        <img src="S__249085999.jpg" class="a">
+    </section>
+
+    <footer>
+        <p>&copy; 2024 私の自己紹介サイト</p>
+    </footer>
+</body>
+</html>
+ <style>
+    section {
+      border-width: 1px;
+      border-color: gray;
+      border-style: solid;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 8px;
+      margin-top: 16px;
+    }
+    body {
+      text-align: center;
+    }
+/* 全体のリセット */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ボディ全体のスタイル */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* ヘッダーのスタイル */
+header {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* 各セクションのスタイル */
+section {
+    margin-bottom: 32px;
+}
+.a {
+    max-width: 150px
+    height: auto;
+}
+
+
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 16px;
+}
+
+section p {
+    font-size: 1.2em;
+    margin-bottom: 16px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+/* フッターのスタイル */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #666;
+}
+
+/* メディアクエリ（レスポンシブ対応） */
+@media (min-width: 768px) {
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+
+    section p {
+        font-size: 1.1em;
+    }
+}
+</style>
